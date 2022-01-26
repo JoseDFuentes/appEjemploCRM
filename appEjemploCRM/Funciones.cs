@@ -19,9 +19,9 @@ namespace appEjemploCRM
 
         public void initConection()
         {
-            conexion.serviceUrl = "https://lccorpcrdesa.api.crm.dynamics.com/XRMServices/2011/Organization.svc";
-            conexion.user = "apalavicini@lccorpcr.onmicrosoft.com";
-            conexion.password = "Wut61666";
+            conexion.serviceUrl = "https://*********.api.crm.dynamics.com/XRMServices/2011/Organization.svc";
+            conexion.user = "apa******@lccorpcr.onmicrosoft.com";
+            conexion.password = "W******6";
             serviceProxy = conexion.initServiceProxy();
 
         }
